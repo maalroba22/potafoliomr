@@ -8,7 +8,7 @@ import { RiStarSFill, RiLinkedinBoxFill, RiGithubFill } from 'react-icons/ri'
 
 const Hero = () => {
     return (
-        <div className='  h-[90vh] grid grid-cols-1 lg:grid-cols-8 sm:h-[60vh] lg:h-[90vh] ' >
+        <div className='  h-[90vh] mb-20 grid grid-cols-1 lg:grid-cols-8 sm:h-[60vh] lg:h-[90vh] ' >
             {/* imagen de Manuel romero */}
             <div className='p-6 bg-gray-900 md:p-8 col-span-3  flex justify-center  items-center flex-col relative'>
                 {/* contenido */}
@@ -46,7 +46,7 @@ const Hero = () => {
                 <img className='invisible md:visible w-[90px] h-[90px]  absolute bottom-0-[10%] right-[3%] ring-4 hover:bg-white ring-primary bg-primary p4 rounded-full object-cover ' src={logohtml} alt="logo js" />
             </div>
             {/* informacion */}
-            <div className='bg-red-300 sm:col-span-5 flex items-center justify-center '>
+            <div className='mb-50 bg-red-300 sm:col-span-5 flex items-center justify-center '>
                 <div className='flex flex-col p-10 gap-6'>
                     <div>
                         <h1 className=' text-xl sm:text-5xl font-bold text-center'> <span className='text-xl md:text-5xl text-primary '>¡ Hola !</span> , soy Manuel Romero</h1>
